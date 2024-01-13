@@ -48,7 +48,7 @@ export default function Navbar() {
                         {/*</button>*/}
                         <div className="flex flex-col gap-4">
                             {cartItems.map((item) => (
-                                <div className="flex flex-row gap-4">
+                                <div key={item.id} className="flex flex-row gap-4">
                                     <div className="flex flex-col gap-2">
                                         {cartItems.map(item => (
                                             <CartItemCard key={item.id} cartItem={item} movie={item.id} />
