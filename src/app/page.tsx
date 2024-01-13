@@ -7,7 +7,7 @@ export default function Home() {
       <div>
             <div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 px-4 sm:px-12 py-8 sm:py-14">
               {movies.map(movie => (
-                  <MoviesItem movie={
+                  <MoviesItem key={movie.id} movie={
                       {
                           description: movie.description,
                           genre: movie.genre,

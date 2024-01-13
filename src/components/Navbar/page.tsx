@@ -51,7 +51,7 @@ export default function Navbar() {
                                 <div className="flex flex-row gap-4">
                                     <div className="flex flex-col gap-2">
                                         {cartItems.map(item => (
-                                            <CartItemCard cartItem={item} movie={item.id} />
+                                            <CartItemCard key={item.id} cartItem={item} movie={item.id} />
                                         ))}
                                     </div>
                                 </div>
