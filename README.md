@@ -1,37 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Stack Used
+- Next.js
+- Tailwind CSS
+- Redux
 
-## Getting Started
 
-First, run the development server:
+## Clone and run locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. You'll first need to fork this repository to your own GitHub account. You can then clone your fork of the repository locally:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Clone this repo and install dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/kamalika0363/rent-movie-creo-wis.git
+   ```
+3. Install dependencies with npm or yarn (I used npm)   
+      ```bash
+   npm install
+   ```
 
-## Learn More
+3. Use `cd` to change into the app's directory
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd rent-movie-creo-wis
+   ```
+   
+4. You can now run the Next.js local development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   The app should now be running on [localhost:3000](http://localhost:3000/).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# rent-movie-creo-wis" 
+## Some Stats
+![img.png](img.png)
